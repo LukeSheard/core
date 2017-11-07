@@ -18,4 +18,4 @@ The current release (v2.0.2) can also be found on the new CDN; all new releases 
 
 Please see the [_Access_](ACCESS.md) page for full details. In particular, note that:
 * All build files on the new CDN include version numbers.
-* Demos and API documentation are only avaialble from the new CDN.
+* Demos and API documentation are only available from the new CDN.
