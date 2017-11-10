@@ -1,0 +1,3 @@
+./src/**/old/**/
+./demo/js/demo/build/**/*.js
+./test/**/*.js
