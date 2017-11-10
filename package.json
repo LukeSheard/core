@@ -6,6 +6,9 @@
     "type": "git",
     "url": "git://github.com/openfin/fin-hypergrid.git"
   },
+  "scripts": {
+      "build": "gulp build"
+  },
   "author": "SWirts, JEiten, DJones",
   "license": "MIT",
   "readmeFilename": "README.md",
