@@ -54,7 +54,6 @@ gulp.task('css-templates', function() {
 });
 
 gulp.task('build', function(callback) {
-    clearBashScreen();
     runSequence(
         'lint',
         'images',
@@ -166,11 +165,6 @@ function browserSyncLaunchServer() {
 
 function reloadBrowsers() {
     browserSync.reload();
-}
-
-function clearBashScreen() {
-    var ESC = '\x1B';
-    console.log(ESC + 'c'); // (VT-100 escape sequence)
 }
 
 function swallowImages() {
